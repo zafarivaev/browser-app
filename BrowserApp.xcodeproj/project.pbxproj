@@ -9,21 +9,58 @@
 /* Begin PBXBuildFile section */
 		EF54B9822A02650500F85552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9812A02650500F85552 /* AppDelegate.swift */; };
 		EF54B9842A02650500F85552 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9832A02650500F85552 /* SceneDelegate.swift */; };
-		EF54B9862A02650500F85552 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9852A02650500F85552 /* ViewController.swift */; };
-		EF54B9892A02650500F85552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF54B9872A02650500F85552 /* Main.storyboard */; };
 		EF54B98B2A02650700F85552 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF54B98A2A02650700F85552 /* Assets.xcassets */; };
 		EF54B98E2A02650700F85552 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF54B98C2A02650700F85552 /* LaunchScreen.storyboard */; };
+		EF54B9962A02672A00F85552 /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9952A02672A00F85552 /* AppNavigationController.swift */; };
+		EF54B9982A0267BA00F85552 /* AppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9972A0267BA00F85552 /* AppViewController.swift */; };
+		EF54B9B62A026BC800F85552 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9B02A026BC800F85552 /* MainViewController.swift */; };
+		EF54B9B72A026BC800F85552 /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9B12A026BC800F85552 /* MainAssembly.swift */; };
+		EF54B9B92A026BC800F85552 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9B32A026BC800F85552 /* MainView.swift */; };
+		EF54B9C22A026BF500F85552 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9BC2A026BF500F85552 /* HistoryViewController.swift */; };
+		EF54B9C32A026BF500F85552 /* HistoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9BD2A026BF500F85552 /* HistoryAssembly.swift */; };
+		EF54B9C52A026BF500F85552 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9BF2A026BF500F85552 /* HistoryView.swift */; };
+		EF54B9C72A026C8B00F85552 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9C62A026C8B00F85552 /* AppTextField.swift */; };
+		EF54B9C92A02828600F85552 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9C82A02828600F85552 /* MainViewModel.swift */; };
+		EF54B9CB2A0282CA00F85552 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9CA2A0282CA00F85552 /* Coordinator.swift */; };
+		EF54B9CD2A0282F400F85552 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9CC2A0282F400F85552 /* MainCoordinator.swift */; };
+		EF54B9CF2A02835300F85552 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9CE2A02835300F85552 /* AppCoordinator.swift */; };
+		EF54B9D52A0292C700F85552 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EF54B9D42A0292C700F85552 /* IQKeyboardManagerSwift */; };
+		EF54B9D82A0293FF00F85552 /* VisitedURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9D72A0293FF00F85552 /* VisitedURL.swift */; };
+		EF54B9DB2A02950B00F85552 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9DA2A02950B00F85552 /* StorageService.swift */; };
+		EF54B9DD2A029A7000F85552 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9DC2A029A7000F85552 /* HistoryTableViewCell.swift */; };
+		EF54B9DF2A02ABB500F85552 /* HistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9DE2A02ABB500F85552 /* HistoryViewModel.swift */; };
+		EF54B9E12A02ABE500F85552 /* HistoryCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9E02A02ABE500F85552 /* HistoryCoordinator.swift */; };
+		EF54B9E42A02AD6500F85552 /* UITableViewCell+ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9E32A02AD6500F85552 /* UITableViewCell+ReuseIdentifier.swift */; };
+		EF54B9E62A02ADB500F85552 /* HistoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF54B9E52A02ADB500F85552 /* HistoryDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF54B97E2A02650500F85552 /* BrowserApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrowserApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF54B9812A02650500F85552 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF54B9832A02650500F85552 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF54B9852A02650500F85552 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF54B9882A02650500F85552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF54B98A2A02650700F85552 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF54B98D2A02650700F85552 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF54B98F2A02650700F85552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF54B9952A02672A00F85552 /* AppNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
+		EF54B9972A0267BA00F85552 /* AppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewController.swift; sourceTree = "<group>"; };
+		EF54B9B02A026BC800F85552 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EF54B9B12A026BC800F85552 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
+		EF54B9B32A026BC800F85552 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		EF54B9BC2A026BF500F85552 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		EF54B9BD2A026BF500F85552 /* HistoryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryAssembly.swift; sourceTree = "<group>"; };
+		EF54B9BF2A026BF500F85552 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		EF54B9C62A026C8B00F85552 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
+		EF54B9C82A02828600F85552 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		EF54B9CA2A0282CA00F85552 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		EF54B9CC2A0282F400F85552 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		EF54B9CE2A02835300F85552 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		EF54B9D72A0293FF00F85552 /* VisitedURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitedURL.swift; sourceTree = "<group>"; };
+		EF54B9DA2A02950B00F85552 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		EF54B9DC2A029A7000F85552 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		EF54B9DE2A02ABB500F85552 /* HistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewModel.swift; sourceTree = "<group>"; };
+		EF54B9E02A02ABE500F85552 /* HistoryCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCoordinator.swift; sourceTree = "<group>"; };
+		EF54B9E32A02AD6500F85552 /* UITableViewCell+ReuseIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+ReuseIdentifier.swift"; sourceTree = "<group>"; };
+		EF54B9E52A02ADB500F85552 /* HistoryDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF54B9D52A0292C700F85552 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +94,105 @@
 		EF54B9802A02650500F85552 /* BrowserApp */ = {
 			isa = PBXGroup;
 			children = (
-				EF54B9812A02650500F85552 /* AppDelegate.swift */,
-				EF54B9832A02650500F85552 /* SceneDelegate.swift */,
-				EF54B9852A02650500F85552 /* ViewController.swift */,
-				EF54B9872A02650500F85552 /* Main.storyboard */,
-				EF54B98A2A02650700F85552 /* Assets.xcassets */,
-				EF54B98C2A02650700F85552 /* LaunchScreen.storyboard */,
-				EF54B98F2A02650700F85552 /* Info.plist */,
+				EF54B9992A0267E100F85552 /* Application */,
+				EF54B99B2A02685C00F85552 /* Presentation */,
+				EF54B9D92A02950000F85552 /* Data */,
+				EF54B9D62A0293EA00F85552 /* Domain */,
 			);
 			path = BrowserApp;
+			sourceTree = "<group>";
+		};
+		EF54B9992A0267E100F85552 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EF54B9812A02650500F85552 /* AppDelegate.swift */,
+				EF54B9832A02650500F85552 /* SceneDelegate.swift */,
+				EF54B9CE2A02835300F85552 /* AppCoordinator.swift */,
+				EF54B98F2A02650700F85552 /* Info.plist */,
+				EF54B98A2A02650700F85552 /* Assets.xcassets */,
+				EF54B98C2A02650700F85552 /* LaunchScreen.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EF54B99B2A02685C00F85552 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EF54B9E22A02AD5800F85552 /* Extensions */,
+				EF54B99C2A02686000F85552 /* Common */,
+				EF54B99D2A02686B00F85552 /* Scenes */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EF54B99C2A02686000F85552 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EF54B9952A02672A00F85552 /* AppNavigationController.swift */,
+				EF54B9972A0267BA00F85552 /* AppViewController.swift */,
+				EF54B9C62A026C8B00F85552 /* AppTextField.swift */,
+				EF54B9CA2A0282CA00F85552 /* Coordinator.swift */,
+				EF54B9DC2A029A7000F85552 /* HistoryTableViewCell.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EF54B99D2A02686B00F85552 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EF54B99E2A02687300F85552 /* Main */,
+				EF54B99F2A02687800F85552 /* History */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EF54B99E2A02687300F85552 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EF54B9B12A026BC800F85552 /* MainAssembly.swift */,
+				EF54B9CC2A0282F400F85552 /* MainCoordinator.swift */,
+				EF54B9B32A026BC800F85552 /* MainView.swift */,
+				EF54B9B02A026BC800F85552 /* MainViewController.swift */,
+				EF54B9C82A02828600F85552 /* MainViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EF54B99F2A02687800F85552 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				EF54B9BD2A026BF500F85552 /* HistoryAssembly.swift */,
+				EF54B9E02A02ABE500F85552 /* HistoryCoordinator.swift */,
+				EF54B9BF2A026BF500F85552 /* HistoryView.swift */,
+				EF54B9BC2A026BF500F85552 /* HistoryViewController.swift */,
+				EF54B9DE2A02ABB500F85552 /* HistoryViewModel.swift */,
+				EF54B9E52A02ADB500F85552 /* HistoryDataSource.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		EF54B9D62A0293EA00F85552 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EF54B9D72A0293FF00F85552 /* VisitedURL.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EF54B9D92A02950000F85552 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EF54B9DA2A02950B00F85552 /* StorageService.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		EF54B9E22A02AD5800F85552 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EF54B9E32A02AD6500F85552 /* UITableViewCell+ReuseIdentifier.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +211,9 @@
 			dependencies = (
 			);
 			name = BrowserApp;
+			packageProductDependencies = (
+				EF54B9D42A0292C700F85552 /* IQKeyboardManagerSwift */,
+			);
 			productName = BrowserApp;
 			productReference = EF54B97E2A02650500F85552 /* BrowserApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +242,9 @@
 				Base,
 			);
 			mainGroup = EF54B9752A02650500F85552;
+			packageReferences = (
+				EF54B9D32A0292C700F85552 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = EF54B97F2A02650500F85552 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +261,6 @@
 			files = (
 				EF54B98E2A02650700F85552 /* LaunchScreen.storyboard in Resources */,
 				EF54B98B2A02650700F85552 /* Assets.xcassets in Resources */,
-				EF54B9892A02650500F85552 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +271,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF54B9862A02650500F85552 /* ViewController.swift in Sources */,
+				EF54B9C72A026C8B00F85552 /* AppTextField.swift in Sources */,
+				EF54B9C32A026BF500F85552 /* HistoryAssembly.swift in Sources */,
+				EF54B9B62A026BC800F85552 /* MainViewController.swift in Sources */,
+				EF54B9DB2A02950B00F85552 /* StorageService.swift in Sources */,
+				EF54B9C22A026BF500F85552 /* HistoryViewController.swift in Sources */,
+				EF54B9E42A02AD6500F85552 /* UITableViewCell+ReuseIdentifier.swift in Sources */,
+				EF54B9B72A026BC800F85552 /* MainAssembly.swift in Sources */,
+				EF54B9DD2A029A7000F85552 /* HistoryTableViewCell.swift in Sources */,
+				EF54B9D82A0293FF00F85552 /* VisitedURL.swift in Sources */,
+				EF54B9CD2A0282F400F85552 /* MainCoordinator.swift in Sources */,
+				EF54B9E12A02ABE500F85552 /* HistoryCoordinator.swift in Sources */,
+				EF54B9B92A026BC800F85552 /* MainView.swift in Sources */,
+				EF54B9982A0267BA00F85552 /* AppViewController.swift in Sources */,
+				EF54B9C52A026BF500F85552 /* HistoryView.swift in Sources */,
+				EF54B9CB2A0282CA00F85552 /* Coordinator.swift in Sources */,
+				EF54B9962A02672A00F85552 /* AppNavigationController.swift in Sources */,
+				EF54B9DF2A02ABB500F85552 /* HistoryViewModel.swift in Sources */,
 				EF54B9822A02650500F85552 /* AppDelegate.swift in Sources */,
+				EF54B9CF2A02835300F85552 /* AppCoordinator.swift in Sources */,
 				EF54B9842A02650500F85552 /* SceneDelegate.swift in Sources */,
+				EF54B9C92A02828600F85552 /* MainViewModel.swift in Sources */,
+				EF54B9E62A02ADB500F85552 /* HistoryDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF54B9872A02650500F85552 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF54B9882A02650500F85552 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF54B98C2A02650700F85552 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +433,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MJWVGRX9VD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BrowserApp/Info.plist;
+				INFOPLIST_FILE = BrowserApp/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +445,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zafar.BrowserApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +463,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MJWVGRX9VD;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BrowserApp/Info.plist;
+				INFOPLIST_FILE = BrowserApp/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +475,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zafar.BrowserApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +506,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EF54B9D32A0292C700F85552 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EF54B9D42A0292C700F85552 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EF54B9D32A0292C700F85552 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EF54B9762A02650500F85552 /* Project object */;
 }
